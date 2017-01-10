@@ -1,11 +1,17 @@
 module Main exposing (..)
 
 import Html exposing (..)
+import Header
 import About
 import Blogs
 import SideProjects
 import Profiles
 import Footer
+
+
+header : Html msg
+header =
+    Header.view
 
 
 about : Html msg
@@ -35,9 +41,9 @@ footer =
 
 main =
     div []
-        [ h1 [] [ text "David Nimmo" ]
-        , div []
-            [ about
+        [ div []
+            [ header
+            , about
             , blogs
             , projects
             , profiles
