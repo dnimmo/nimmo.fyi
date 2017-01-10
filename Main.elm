@@ -4,6 +4,7 @@ import Html exposing (..)
 import About
 import Blogs
 import SideProjects
+import Profiles
 
 
 about : Html msg
@@ -21,6 +22,11 @@ projects =
     SideProjects.view
 
 
+profiles : Html msg
+profiles =
+    Profiles.view
+
+
 main =
     div []
         [ h1 [] [ text "David Nimmo" ]
@@ -28,5 +34,6 @@ main =
             [ about
             , blogs
             , projects
+            , profiles
             ]
         ]
