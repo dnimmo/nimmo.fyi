@@ -1,8 +1,14 @@
 module Main exposing (..)
 
 import Html exposing (..)
+import About
 import Blogs
 import SideProjects
+
+
+about : Html msg
+about =
+    About.view
 
 
 blogs : Html msg
@@ -19,7 +25,8 @@ main =
     div []
         [ h1 [] [ text "David Nimmo" ]
         , div []
-            [ blogs
+            [ about
+            , blogs
             , projects
             ]
         ]
