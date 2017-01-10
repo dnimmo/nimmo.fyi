@@ -4,6 +4,7 @@ import Html exposing (..)
 import Html.Attributes exposing (..)
 
 
+view : Html msg
 view =
     section []
         [ h2 [] [ text "Side Projects" ]

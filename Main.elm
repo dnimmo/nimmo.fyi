@@ -5,10 +5,12 @@ import Blogs
 import SideProjects
 
 
+blogs : Html msg
 blogs =
     Blogs.view
 
 
+projects : Html msg
 projects =
     SideProjects.view
 
