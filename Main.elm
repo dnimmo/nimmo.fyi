@@ -5,6 +5,7 @@ import About
 import Blogs
 import SideProjects
 import Profiles
+import Footer
 
 
 about : Html msg
@@ -27,6 +28,11 @@ profiles =
     Profiles.view
 
 
+footer : Html msg
+footer =
+    Footer.view
+
+
 main =
     div []
         [ h1 [] [ text "David Nimmo" ]
@@ -35,5 +41,6 @@ main =
             , blogs
             , projects
             , profiles
+            , footer
             ]
         ]
