@@ -41,10 +41,12 @@ footer =
 
 main =
     div []
-        [ header
-        , about
-        , blogs
-        , projects
-        , profiles
-        , footer
+        [ div []
+            [ header
+            , about
+            , blogs
+            , projects
+            , profiles
+            , footer
+            ]
         ]
