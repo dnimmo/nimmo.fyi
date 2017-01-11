@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
-    "summary": "Personal site for David Nimmo <dnimmm@gmail.com>",
-    "repository": "https://github.com/dnimmo/dnimmo.co.uk.git",
+    "summary": "helpful summary of your project, less than 80 characters",
+    "repository": "https://github.com/user/project.git",
     "license": "BSD3",
     "source-directories": [
         "."
