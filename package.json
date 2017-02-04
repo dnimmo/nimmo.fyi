@@ -4,8 +4,10 @@
   "description": "A basic personal site",
   "main": "server.js",
   "scripts": {
+    "build": "elm make Main.elm --output main.js && elm-css styles/Stylesheets.elm",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "serve": "node server",
+    "start": "npm run build && npm run serve"
   },
   "repository": {
     "type": "git",
