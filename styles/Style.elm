@@ -9,6 +9,7 @@ type CssClasses
 
 
 css =
-    [ (.) Test
-        [ backgroundColor ( rgba 255, 0, 0, 0.7 ) ]
-    ]
+    stylesheet
+        [ (.) Test
+            [ backgroundColor (rgba 255 0 0 0.7) ]
+        ]

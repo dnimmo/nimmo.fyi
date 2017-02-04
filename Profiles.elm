@@ -12,26 +12,26 @@ view =
         , ul []
             [ li []
                 [ p []
-                    [ text "LinkedIn: "
-                    , a [ href "https://uk.linkedin.com/in/david-nimmo-89568666" ] [ text "For people who would like to contact me about job opportunities" ]
+                    [ text "For people who would like to contact me about job opportunities: "
+                    , a [ href "https://uk.linkedin.com/in/david-nimmo-89568666" ] [ text "LinkedIn" ]
                     ]
                 ]
             , li []
                 [ p []
-                    [ text "Github: "
-                    , a [ href "https://github.com/dnimmo" ] [ text "For people who would like to look over the assortment of bits of code I add to whenever the mood strikes" ]
+                    [ text "For people who would like to look over the assortment of bits of code I add to whenever the mood strikes: "
+                    , a [ href "https://github.com/dnimmo" ] [ text "Github" ]
                     ]
                 ]
             , li []
                 [ p []
-                    [ text "Twitter: "
-                    , a [ href "https://twitter.com/K_Fistman" ] [ text "For people who would like to see me complain at companies" ]
+                    [ text "For people who would like to see me complain at companies: "
+                    , a [ href "https://twitter.com/K_Fistman" ] [ text "Twitter" ]
                     ]
                 ]
             , li []
                 [ p []
-                    [ text "Google+: "
-                    , a [ href "https://plus.google.com/+DavidNimmo" ] [ text "For people who have heard of Google+" ]
+                    [ text "For people who have heard of Google+: "
+                    , a [ href "https://plus.google.com/+DavidNimmo" ] [ text "Google+" ]
                     ]
                 ]
             ]
