@@ -1,3 +1,4 @@
 elm-stuff
 **/*.css
 node_modules/
+main.js
