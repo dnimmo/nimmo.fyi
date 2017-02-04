@@ -6,7 +6,7 @@ import Html.Attributes exposing (..)
 
 view : Html msg
 view =
-    section []
+    section [ class "Content" ]
         [ h2 [] [ text "Side Projects" ]
         , ul []
             [ li []

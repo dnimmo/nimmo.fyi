@@ -6,4 +6,4 @@ import Html.Attributes exposing (..)
 
 view : Html msg
 view =
-    header [] [ h1 [] [ text "nimmo : caffeine -> requirements -> code" ] ]
+    header [ class "Impact" ] [ h1 [] [ text "nimmo : caffeine -> requirements -> code" ] ]

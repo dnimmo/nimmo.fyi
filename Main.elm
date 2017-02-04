@@ -2,9 +2,6 @@ module Main exposing (..)
 
 import Html exposing (..)
 import Html.Attributes exposing (..)
-import Html.CssHelpers
-import Css exposing (..)
-import Style exposing (..)
 import Header
 import About
 import Blogs
@@ -44,7 +41,7 @@ footer =
 
 
 main =
-    div [ class "Test" ]
+    div []
         [ header
         , about
         , blogs
