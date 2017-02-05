@@ -2,6 +2,7 @@ module Style exposing (..)
 
 import Css exposing (..)
 import Css.Elements exposing (..)
+import Constants exposing (..)
 
 
 type CssClasses
@@ -13,30 +14,41 @@ type CssClasses
 css =
     stylesheet
         [ body
-            [ boxSizing borderBox
+            [ backgroundColor (rgb 0 186 221)
+            , boxSizing borderBox
             , fontFamilies [ "arial" ]
             , lineHeight (Css.rem 1.6)
             , margin zero
             , padding zero
-            , textAlign center
             ]
-        , ul
-            [ listStyle none ]
-        , li
-            [ margin (px 5) ]
-        , (.) Impact
-            [ backgroundColor (rgba 255 0 0 0.7)
+        , a
+            [ marginRight (px 5) ]
+        , class Impact
+            [ Constants.boxShadow
+            , Constants.textShadow
+            , backgroundColor (rgb 255 96 84)
             , color (rgb 255 255 255)
             , fontSize (Css.rem 1.6)
             , fontWeight bold
             , padding (pct 5)
+            , textAlign center
             ]
-        , (.) Content
-            [ fontSize (Css.rem 1.2)
-            , marginBottom (pct 5)
-            , paddingLeft (pct 15)
-            , paddingRight (pct 15)
+        , class Content
+            [ Constants.boxShadow
+            , backgroundColor (rgb 255 255 255)
+            , fontSize (Css.rem 1.2)
+            , marginBottom (pct 2.5)
+            , marginLeft (pct 15)
+            , marginRight (pct 15)
+            , marginTop (pct 2.5)
+            , padding (px 20)
+            , children
+                [ ul
+                    [ listStyle none ]
+                , li
+                    [ margin (px 5) ]
+                ]
             ]
-        , (.) ProfileLabel
+        , class ProfileLabel
             []
         ]
