@@ -28,7 +28,7 @@ css =
             , Constants.textShadow
             , backgroundColor (rgb 255 96 84)
             , color (rgb 255 255 255)
-            , fontSize (Css.rem 1.6)
+            , fontSize (Css.rem 0.8)
             , fontWeight bold
             , padding (pct 5)
             , textAlign center
@@ -37,10 +37,10 @@ css =
             [ Constants.boxShadow
             , backgroundColor (rgb 255 255 255)
             , fontSize (Css.rem 1.2)
-            , marginBottom (pct 2.5)
-            , marginLeft (pct 15)
-            , marginRight (pct 15)
-            , marginTop (pct 2.5)
+            , marginBottom (pct 5)
+            , marginLeft (pct 5)
+            , marginRight (pct 5)
+            , marginTop (pct 5)
             , padding (px 20)
             , children
                 [ ul
