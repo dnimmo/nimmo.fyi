@@ -22,7 +22,9 @@ type CssClasses
 css =
     stylesheet
         [ body
-            [ backgroundColor (hex "1d2026")
+            [ backgroundImage (url "./media/bk.svg")
+            , backgroundColor (hex "1d2026")
+            , backgroundRepeat noRepeat
             , boxSizing borderBox
             , color (hex "abb2bf")
             , fontFamilies [ "Inconsolata", "monospace" ]
@@ -76,7 +78,12 @@ css =
         , class PostText
             [ color (hex "8e97a9") ]
         , class ExtraSpace
-            [ minHeight (px 100) ]
+            [ minHeight (px 100)
+            , paddingBottom (Css.rem 1)
+            , paddingLeft (Css.rem 0)
+            , paddingRight (Css.rem 1)
+            , paddingTop (Css.rem 1)
+            ]
         , a
             [ color (hex "abb2bf")
             , textDecoration none
