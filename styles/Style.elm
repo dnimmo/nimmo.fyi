@@ -6,49 +6,81 @@ import Constants exposing (..)
 
 
 type CssClasses
-    = Impact
-    | Content
-    | ProfileLabel
+    = MainLayout
+    | Intro
+    | PostContainer
+    | Code
+    | TypeName
+    | Separator
+    | Param
+    | First
+    | PostText
 
 
 css =
     stylesheet
         [ body
-            [ backgroundColor (rgb 0 186 221)
+            [ backgroundColor (hex "1d2026")
             , boxSizing borderBox
-            , fontFamilies [ "arial" ]
-            , lineHeight (Css.rem 1.6)
-            , margin zero
-            , padding zero
+            , color (hex "abb2bf")
+            , fontFamilies [ "Inconsolata", "monospace" ]
+            , fontSize (Css.rem 0.9)
+            , letterSpacing (Css.rem 0.04)
+            , lineHeight (Css.rem 1.5)
             ]
-        , a
-            [ marginRight (px 5) ]
-        , class Impact
-            [ Constants.boxShadow
-            , Constants.textShadow
-            , backgroundColor (rgb 255 96 84)
-            , color (rgb 255 255 255)
-            , fontSize (Css.rem 0.8)
-            , fontWeight bold
-            , padding (pct 5)
-            , textAlign center
+        , h2
+            [ color (hex "d19a66")
+            , fontWeight lighter
             ]
-        , class Content
-            [ Constants.boxShadow
-            , backgroundColor (rgb 255 255 255)
-            , fontSize (Css.rem 1.2)
-            , marginBottom (pct 5)
-            , marginLeft (pct 5)
-            , marginRight (pct 5)
-            , marginTop (pct 5)
-            , padding (px 20)
+        , class MainLayout
+            [ margin auto
+            , width (pct 90)
+            ]
+        , class Intro
+            [ marginBottom (px 50)
+            , marginTop (px 50)
+            ]
+        , class PostContainer
+            [ margin (px 0)
+            , padding (px 0)
+            , property "display" "flex"
+            , overflowX auto
             , children
-                [ ul
-                    [ listStyle none ]
-                , li
-                    [ margin (px 5) ]
+                [ li
+                    [ listStyle none
+                    , margin (px 20)
+                    , minWidth (px 200)
+                    , width (pct 25)
+                    , withClass First [ marginLeft (px 0) ]
+                    ]
                 ]
             ]
-        , class ProfileLabel
-            []
+        , class Code
+            [ marginRight (px 10)
+            , withClass TypeName
+                [ color (hex "61afef") ]
+            , withClass Separator
+                [ color (hex "9c63b0") ]
+            , withClass Param
+                [ color (hex "e06c75") ]
+            ]
+        , class PostText
+            [ color (hex "8e97a9") ]
+        , a
+            [ color (hex "abb2bf")
+            , textDecoration none
+            ]
+        , h3
+            [ borderBottom (px 1)
+            , borderColor (hex "e06c75")
+            , borderLeft (px 0)
+            , borderRight (px 0)
+            , borderStyle solid
+            , borderTop (px 0)
+            , fontWeight lighter
+            ]
+        , mediaQuery "screen and ( min-width: 745px )"
+            [ class Intro
+                [ width (pct 60) ]
+            ]
         ]

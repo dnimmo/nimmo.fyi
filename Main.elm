@@ -44,8 +44,8 @@ main =
     div []
         [ header
         , about
-        , blogs
         , projects
+        , blogs
         , profiles
         , footer
         ]
