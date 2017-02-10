@@ -20,7 +20,7 @@ view =
             , li []
                 [ a [ href "https://medium.com/@dnimmo/responsive-is-a-responsibility-not-a-choice-8ae5455bf7c3#.qvj9j1644" ]
                     [ h3 [ class "ExtraSpace" ]
-                        [ text "'Responsive' is a responsibility, not a choice (Medium)" ]
+                        [ text "'Responsive' is a responsibility, not a choice" ]
                     ]
                 , p [ class "PostText" ]
                     [ text "Medium" ]
@@ -28,7 +28,7 @@ view =
             , li []
                 [ a [ href "https://medium.com/@dnimmo/if-youre-going-to-learn-javascript-learn-javascript-5fb3326fe8f5#.e3y2z7gxg" ]
                     [ h3 [ class "ExtraSpace" ]
-                        [ text "If you're going to learn JavaScript, learn JavaScript (Medium)"
+                        [ text "If you're going to learn JavaScript, learn JavaScript"
                         ]
                     ]
                 , p [ class "PostText" ]

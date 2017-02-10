@@ -6,5 +6,5 @@ import Html.Attributes exposing (..)
 
 view : Html msg
 view =
-    footer [ class "Impact" ]
+    footer []
         [ text "David Nimmo : dnimmo at gmail.com" ]
