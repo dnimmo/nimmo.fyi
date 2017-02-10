@@ -6,7 +6,8 @@ import Constants exposing (..)
 
 
 type CssClasses
-    = MainLayout
+    = Logo
+    | MainLayout
     | Intro
     | PostContainer
     | Code
@@ -15,6 +16,7 @@ type CssClasses
     | Param
     | First
     | PostText
+    | ExtraSpace
 
 
 css =
@@ -31,6 +33,13 @@ css =
         , h2
             [ color (hex "d19a66")
             , fontWeight lighter
+            ]
+        , class Logo
+            [ fill (hex "e06c75")
+            , marginBottom (px 50)
+            , marginTop (px 50)
+            , property "transform-origin" "0"
+            , width (px 40)
             ]
         , class MainLayout
             [ margin auto
@@ -66,6 +75,8 @@ css =
             ]
         , class PostText
             [ color (hex "8e97a9") ]
+        , class ExtraSpace
+            [ minHeight (px 100) ]
         , a
             [ color (hex "abb2bf")
             , textDecoration none
