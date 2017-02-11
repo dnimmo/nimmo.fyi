@@ -97,8 +97,35 @@ css =
             , borderTop (px 0)
             , fontWeight lighter
             ]
+        , footer
+            [ children
+                [ ul
+                    [ alignItems center
+                    , margin (px 0)
+                    , paddingBottom (px 20)
+                    , paddingLeft (px 0)
+                    , paddingRight (px 0)
+                    , paddingTop (px 20)
+                    , property "display" "flex"
+                    , children
+                        [ li
+                            [ listStyle none
+                            , fontSize (Css.rem 1.2)
+                            , textAlign center
+                            , property "flex" "1"
+                            ]
+                        ]
+                    ]
+                ]
+            ]
         , mediaQuery "screen and ( min-width: 745px )"
             [ class Intro
                 [ width (pct 60) ]
+            , footer
+                [ children
+                    [ ul
+                        [ width (pct 20) ]
+                    ]
+                ]
             ]
         ]
