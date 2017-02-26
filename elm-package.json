@@ -6,7 +6,8 @@
     "source-directories": [
         ".",
         "./styles",
-        "./components"
+        "./components",
+        "./content"
     ],
     "exposed-modules": [],
     "dependencies": {
