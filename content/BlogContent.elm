@@ -1,8 +1,5 @@
 module BlogContent exposing (..)
 
-import Json.Encode
-import Json.Decode exposing (field)
-
 
 type alias BlogPost =
     { title : String
