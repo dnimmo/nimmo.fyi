@@ -18,8 +18,9 @@ renderBlogPost blog =
         ]
 
 
-blogsList =
-    List.map renderBlogPost BlogContent.blogs
+renderBlogs : List BlogContent.BlogPost -> List (Html msg)
+renderBlogs blogs =
+    List.map renderBlogPost blogs
 
 
 view : Html msg
@@ -27,5 +28,5 @@ view =
     article []
         [ h2 [] [ text "Things I've written" ]
         , ul [ class "PostContainer" ]
-            blogsList
+            (renderBlogs BlogContent.blogs)
         ]
