@@ -62,7 +62,7 @@ css =
                     , margin (px 20)
                     , minWidth (px 200)
                     , width (pct 25)
-                    , withClass First [ marginLeft (px 0) ]
+                    , firstOfType [ marginLeft (px 0) ]
                     ]
                 ]
             ]
