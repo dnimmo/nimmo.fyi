@@ -13,7 +13,7 @@ view =
                     [ i [ class "fa fa-github" ] [] ]
                 ]
             , li []
-                [ a [ href "https://twitter.com/K_Fistman" ]
+                [ a [ href "https://twitter.com/_dnimmo" ]
                     [ i [ class "fa fa-twitter" ] [] ]
                 ]
             , li []
