@@ -4,10 +4,10 @@
   "description": "A basic personal site",
   "main": "server.js",
   "scripts": {
-    "build": "elm make Main.elm --output main.js && elm-css styles/Stylesheets.elm",
+    "build": "elm make Main.elm --yes --output main.js && elm-css styles/Stylesheets.elm",
     "serve": "node server",
     "start": "npm run build && npm run serve",
-    "start-production": "git pull && npm run build && forever restart server.js"
+    "start-production": "npm run build && forever restart server.js"
   },
   "repository": {
     "type": "git",
