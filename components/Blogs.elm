@@ -20,7 +20,8 @@ renderBlogPost blog =
 
 renderBlogs : List BlogContent.BlogPost -> List (Html msg)
 renderBlogs blogs =
-    List.map renderBlogPost blogs
+    blogs
+        |> List.map renderBlogPost
 
 
 view : Html msg
