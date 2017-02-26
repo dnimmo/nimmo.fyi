@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "summary": "A basic personal/portfolio site",
-    "repository": "https://github.com/dnimmo/dnimmo.co.uk.git",
+    "repository": "https://github.com/dnimmo/dnimmodotcodotuk.git",
     "license": "BSD3",
     "source-directories": [
         ".",
