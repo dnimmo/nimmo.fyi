@@ -14,7 +14,6 @@ type CssClasses
     | TypeName
     | Separator
     | Param
-    | First
     | PostText
     | ExtraSpace
 
