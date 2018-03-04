@@ -8450,7 +8450,7 @@ var _dnimmo$dnimmodotcodotuk$Header$view = A2(
 	{
 		ctor: '::',
 		_0: A2(
-			_elm_lang$html$Html$h2,
+			_elm_lang$html$Html$h1,
 			{
 				ctor: '::',
 				_0: _elm_lang$html$Html_Attributes$class('Code'),

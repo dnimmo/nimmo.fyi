@@ -7,7 +7,7 @@ import Html.Attributes exposing (..)
 view : Html msg
 view =
     header []
-        [ h2 [ class "Code" ]
+        [ h1 [ class "Code" ]
             [ text "- Nimmo" ]
         , span [ class "Code TypeName" ]
             [ text "nimmo" ]

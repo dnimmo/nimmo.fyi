@@ -31,6 +31,10 @@ css =
             , letterSpacing (Css.rem 0.04)
             , lineHeight (Css.rem 1.5)
             ]
+        , h1
+            [ color (hex "d19a66")
+            , fontSize (Css.em 1.5)
+            , marginTop (px 20)]
         , h2
             [ color (hex "d19a66")
             , fontWeight lighter

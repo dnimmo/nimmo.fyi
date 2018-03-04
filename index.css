@@ -10,6 +10,12 @@ body {
     line-height: 1.5rem;
 }
 
+h1 {
+    color: #d19a66;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
 h2 {
     color: #d19a66;
     font-weight: lighter;
