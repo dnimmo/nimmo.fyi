@@ -8580,7 +8580,7 @@ var _dnimmo$dnimmodotcodotuk$SideProjectContent$projects = {
 			_0: {title: 'Exercism', text: 'Obviously I didn\'t create Exercism.io, but I am thoroughly enjoying spending time completing challenges on it. You should check it out, too!', url: 'http://exercism.io/dnimmo'},
 			_1: {
 				ctor: '::',
-				_0: {title: 'dnimmo.co.uk', text: 'The site you\'re looking at now. Yes, it\'s basic, and yes it\'s unimpressive; don\'t worry, I know. But I wanted to knock together a quick website in Elm before carrying on with something more complex.', url: 'https://github.com/dnimmo/dnimmo.co.uk'},
+				_0: {title: 'nimmo.fyi', text: 'The site you\'re looking at now. Yes, it\'s basic, and yes it\'s unimpressive; don\'t worry, I know. But I wanted to knock together a quick website in Elm before carrying on with something more complex.', url: 'https://github.com/dnimmo/nimmo.fyi'},
 				_1: {
 					ctor: '::',
 					_0: {title: 'Project Arklay', text: 'A simple text-adventure game that I built at a point when I was dissatisfied with my job, and needed something to help motivate me.', url: 'https://github.com/dnimmo/project-arklay'},
