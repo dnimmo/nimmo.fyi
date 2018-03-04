@@ -1,0 +1,124 @@
+body {
+    background-image: url(./media/bk.svg);
+    background-color: #1d2026;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    color: #abb2bf;
+    font-family: Inconsolata, monospace;
+    font-size: 0.9rem;
+    letter-spacing: 0.04rem;
+    line-height: 1.5rem;
+}
+
+h2 {
+    color: #d19a66;
+    font-weight: lighter;
+}
+
+.Logo {
+    fill: #e06c75;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    transform-origin: 0;
+    width: 40px;
+}
+
+.MainLayout {
+    margin: auto;
+    width: 90%;
+}
+
+.Intro {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.PostContainer {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.PostContainer > li {
+    list-style: none;
+    margin: 20px;
+    min-width: 200px;
+    width: 25%;
+}
+
+.PostContainer > li:first-of-type {
+    margin-left: 0px;
+}
+
+.Code {
+    margin-right: 10px;
+}
+
+.Code.TypeName {
+    color: #61afef;
+}
+
+.Code.Separator {
+    color: #9c63b0;
+}
+
+.Code.Param {
+    color: #e06c75;
+}
+
+.PostText {
+    color: #8e97a9;
+}
+
+.ExtraSpace {
+    min-height: 100px;
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+a {
+    color: #abb2bf;
+    text-decoration: none;
+}
+
+h3 {
+    border-bottom: 1px;
+    border-color: #e06c75;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-top: 0px;
+    font-weight: lighter;
+}
+
+footer > ul {
+    align-items: center;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    display: flex;
+}
+
+footer > ul > li {
+    list-style: none;
+    font-size: 1.2rem;
+    text-align: center;
+    flex: 1;
+}
+
+@media screen and ( min-width: 745px ) {
+        .Intro {
+    width: 60%;
+}
+}
+
+@media screen and ( min-width: 745px ) {
+        footer > ul {
+    width: 20%;
+}
+}
