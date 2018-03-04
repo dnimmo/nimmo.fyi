@@ -8,7 +8,7 @@ view : Html msg
 view =
     header []
         [ h2 [ class "Code" ]
-            [ text "- David Nimmo" ]
+            [ text "- Nimmo" ]
         , span [ class "Code TypeName" ]
             [ text "nimmo" ]
         , span [ class "Code Separator" ]
