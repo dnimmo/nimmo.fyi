@@ -23,7 +23,7 @@ projects =
       , url = "http://exercism.io/dnimmo"
       }
     , { title = "nimmo.fyi"
-      , text = "The site you're looking at now. Yes, it's basic, and yes it's unimpressive; don't worry, I know. But I wanted to knock together a quick website in Elm before carrying on with something more complex."
+      , text = "The site you're looking at now."
       , url = "https://github.com/dnimmo/nimmo.fyi"
       }
     , { title = "Project Arklay"
