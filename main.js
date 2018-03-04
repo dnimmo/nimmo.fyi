@@ -8159,7 +8159,7 @@ var _dnimmo$dnimmodotcodotuk$About$view = A2(
 			{ctor: '[]'},
 			{
 				ctor: '::',
-				_0: _elm_lang$html$Html$text('I\'m a software developer, based in Newcastle Upon Tyne, England. I have a great passion for functional programming, and device-agnostic development. I\'m a firm believer in organising code sensibly, in the back-end and front-end being of equal importance, in avoiding side effects where you can, and controlling them where you can\'t.'),
+				_0: _elm_lang$html$Html$text('I\'m a software developer based in Newcastle Upon Tyne, England. I have a great passion for functional programming, and device-agnostic development. I\'m a firm believer in organising code sensibly, in the back-end and front-end being of equal importance, in avoiding side effects where you can, and controlling them where you can\'t.'),
 				_1: {ctor: '[]'}
 			}),
 		_1: {
@@ -8178,17 +8178,29 @@ var _dnimmo$dnimmodotcodotuk$About$view = A2(
 
 var _dnimmo$dnimmodotcodotuk$BlogContent$blogs = {
 	ctor: '::',
-	_0: {title: 'Thinking of the next developer', url: 'https://dev.to/dnimmo/thinking-of-the-next-developer', origin: 'Dev.to'},
+	_0: {title: 'Smallest-viewport First', url: 'https://dev.to/dnimmo/smallest-viewport-first--3cck', origin: 'Dev.to'},
 	_1: {
 		ctor: '::',
-		_0: {title: 'I was wrong to dismiss Elm, and I think you probably are too', url: 'https://dev.to/dnimmo/i-was-wrong-to-dismiss-elm-and-i-think-you-probably-aretoo', origin: 'Dev.to'},
+		_0: {title: 'State Driven Development for User Interfaces (A Three-part series)', url: 'https://dev.to/dnimmo/state-driven-development-for-user-interfaces-part-1-an-introduction-27f1', origin: 'Dev.to'},
 		_1: {
 			ctor: '::',
-			_0: {title: '\'Responsive\' is a responsibility, not a choice', url: 'https://medium.com/@dnimmo/responsive-is-a-responsibility-not-a-choice-8ae5455bf7c3#.qvj9j1644', origin: 'Medium'},
+			_0: {title: 'That\'s F***ing Teamwork!', url: 'https://dev.to/dnimmo/thats-fing-teamwork-61c', origin: 'Dev.to'},
 			_1: {
 				ctor: '::',
-				_0: {title: 'If you\'re going to learn JavaScript, learn JavaScript', url: 'https://medium.com/@dnimmo/if-youre-going-to-learn-javascript-learn-javascript-5fb3326fe8f5#.e3y2z7gxg', origin: 'Medium'},
-				_1: {ctor: '[]'}
+				_0: {title: 'Pure functions, and Why I Like Them', url: 'https://dev.to/dnimmo/pure-functions-and-why-i-like-them', origin: 'Dev.to'},
+				_1: {
+					ctor: '::',
+					_0: {title: 'Thinking of the Next Developer', url: 'https://dev.to/dnimmo/thinking-of-the-next-developer', origin: 'Dev.to'},
+					_1: {
+						ctor: '::',
+						_0: {title: 'I Was Wrong to Dismiss Elm, and I Think You Probably Are Too', url: 'https://dev.to/dnimmo/i-was-wrong-to-dismiss-elm-and-i-think-you-probably-aretoo', origin: 'Dev.to'},
+						_1: {
+							ctor: '::',
+							_0: {title: 'If You\'re Going to Learn JavaScript, Learn JavaScript', url: 'https://medium.com/@dnimmo/if-youre-going-to-learn-javascript-learn-javascript-5fb3326fe8f5#.e3y2z7gxg', origin: 'Medium'},
+							_1: {ctor: '[]'}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -8446,7 +8458,7 @@ var _dnimmo$dnimmodotcodotuk$Header$view = A2(
 			},
 			{
 				ctor: '::',
-				_0: _elm_lang$html$Html$text('- David Nimmo'),
+				_0: _elm_lang$html$Html$text('- Nimmo'),
 				_1: {ctor: '[]'}
 			}),
 		_1: {
@@ -8559,17 +8571,21 @@ var _dnimmo$dnimmodotcodotuk$Header$view = A2(
 
 var _dnimmo$dnimmodotcodotuk$SideProjectContent$projects = {
 	ctor: '::',
-	_0: {title: 'Project Arklay v2', text: 'A re-write of a previous JavaScript project, in Elm. This was mainly created to improve my own ability in Elm, as well as fully assess what the language is like in a real project.', url: 'https://github.com/dnimmo/project-arklay-v2'},
+	_0: {title: 'State Machine Example', text: 'A basic example of the methodology covered in my \'State Driven Development\' series', url: 'https://github.com/dnimmo/state-machine-example'},
 	_1: {
 		ctor: '::',
-		_0: {title: 'Exercism', text: 'Obviously I didn\'t create Exercism.io, but I am thoroughly enjoying spending time completing challenges on it. You should check it out, too!', url: 'http://exercism.io/dnimmo'},
+		_0: {title: 'Project Arklay v2', text: 'A re-write of a previous JavaScript project, in Elm. This was mainly created to improve my own ability in Elm, as well as fully assess what the language is like in a real project.', url: 'https://github.com/dnimmo/project-arklay-v2'},
 		_1: {
 			ctor: '::',
-			_0: {title: 'dnimmo.co.uk', text: 'The site you\'re looking at now. Yes, it\'s basic, and yes it\'s unimpressive; don\'t worry, I know. But I wanted to knock together a quick website in Elm before carrying on with something more complex.', url: 'https://github.com/dnimmo/dnimmo.co.uk'},
+			_0: {title: 'Exercism', text: 'Obviously I didn\'t create Exercism.io, but I am thoroughly enjoying spending time completing challenges on it. You should check it out, too!', url: 'http://exercism.io/dnimmo'},
 			_1: {
 				ctor: '::',
-				_0: {title: 'Project Arklay', text: 'A simple text-adventure game that I built at a point when I was dissatisfied with my job, and needed something to help motivate me.', url: 'https://github.com/dnimmo/project-arklay'},
-				_1: {ctor: '[]'}
+				_0: {title: 'dnimmo.co.uk', text: 'The site you\'re looking at now. Yes, it\'s basic, and yes it\'s unimpressive; don\'t worry, I know. But I wanted to knock together a quick website in Elm before carrying on with something more complex.', url: 'https://github.com/dnimmo/dnimmo.co.uk'},
+				_1: {
+					ctor: '::',
+					_0: {title: 'Project Arklay', text: 'A simple text-adventure game that I built at a point when I was dissatisfied with my job, and needed something to help motivate me.', url: 'https://github.com/dnimmo/project-arklay'},
+					_1: {ctor: '[]'}
+				}
 			}
 		}
 	}
