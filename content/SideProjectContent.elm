@@ -10,7 +10,11 @@ type alias Project =
 
 projects : List Project
 projects =
-    [ { title = "State Machine Example"
+    [ { title = "Elm State Machine Example"
+      , text = "An Elm implementation of the example described in my 'State Driven Development' series"
+      , url = "https://github.com/dnimmo/elm-state-machine-example"
+      }
+    , { title = "State Machine Example"
       , text = "A basic example of the methodology covered in my 'State Driven Development' series"
       , url = "https://github.com/dnimmo/state-machine-example"
       }
